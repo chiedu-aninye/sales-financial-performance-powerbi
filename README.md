@@ -34,7 +34,7 @@ A financial performance report analyzing 14 months of sales data (January 2023 â
 
 | File | Description |
 |------|-------------|
-| `Financial_Performance_Dashboard.pbix` | Power BI report file |
+| `Financial Kpis.pbix` | Power BI report file |
 | `screenshot.png` | Dashboard preview image |
 
 ---

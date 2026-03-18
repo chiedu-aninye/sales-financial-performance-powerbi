@@ -1,52 +1,40 @@
 # 📊 Sales Target Performance Dashboard — Power BI
 
-> An interactive business intelligence dashboard delivering visibility into actual versus target sales performance across 14 months and a 12-person sales team.
+> Built for sales leaders who need to know one thing fast — are we hitting our numbers, and if not, why?
 
 ---
 
 ## 🔍 Overview
 
-This project presents a fully interactive **Sales Target Performance Dashboard** built in **Power BI**, powered by data cleaned and transformed using **Power Query**. The dashboard enables sales leadership to monitor revenue performance against targets, track individual rep productivity, and identify structural performance gaps — all from a single, filterable interface.
+This dashboard was built to answer a simple but critical business question — how is our sales team actually performing against the targets we set? Using 14 months of real sales data across a 12-person team, this Power BI dashboard transforms raw numbers into a clear, visual story that any sales leader or business owner can read at a glance — no spreadsheet digging required.
 
 ---
 
-## 🎯 Objectives
+## 💼 The Business Problem
 
-- Track actual versus target revenue performance across 14 months
-- Monitor individual sales rep performance, variance, and trends
-- Identify months where targets were met and quantify the gap where they were not
-- Surface structural performance issues for leadership review and strategy recalibration
-- Deliver actionable insights to support sales strategy and revenue recovery planning
+Most sales teams track revenue. Very few track the gap between what was promised and what was delivered — month by month, rep by rep. This dashboard was built to close that gap, giving leadership a single place to see where the team is winning, where it is falling short, and where the business needs to act.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 💡 What This Dashboard Does For Your Business
 
-| Tool | Purpose |
-|---|---|
-| Power BI | Dashboard design, data visualisation & interactivity |
-| Power Query | Data cleaning & transformation |
-| DAX | Calculated measures, KPIs & variance analysis |
-
----
-
-## ✨ Key Dashboard Features
-
-- **KPI Summary Cards** — instant view of Total Sales Actual (19 million), Total Sales Target (19 million), Variance (367 thousand), and Months Target Reached (2)
-- **Actual vs Target Bar Chart** — monthly comparison across 14 months with variance percentage labels
-- **Individual Rep Scorecards** — table showing each rep's actual revenue, target, variance percentage, and trend line
-- **YTD Performance Tracker** — year to date actual vs target with deficit percentage
-- **Trend Analysis** — monthly sales trend identifying peak in September 2023 and sharp Q4 decline
+- Shows instantly whether your team is on track or off target — every single month
+- Identifies which sales reps are exceeding expectations and which need support
+- Reveals seasonal trends so you can plan ahead instead of reacting after the fact
+- Flags early warning signs before they become serious revenue problems
+- Gives leadership the data they need to make confident, informed decisions fast
 
 ---
 
-## 📈 Key Business Insights
+## 📊 What The Data Revealed
 
-1. Targets were met in only **2 out of 14 months**, exposing a persistent gap between forecast and execution
-2. Peak variance of **367 thousand** recorded, with a YTD deficit of **-4.4%** and **-112.70 thousand**
-3. Only **4 out of 12 representatives** exceeded their targets, with individual variances ranging from **-11.6% to +9.0%**
-4. Sales trended upward through **September 2023** before declining sharply in Q4, flagging a structural performance issue
-5. YTD performance sits at **-4.4%**, signalling an unresolved deficit heading into the next cycle
+The numbers told a story that spreadsheets were hiding:
+
+- The business closed 14 months with 19 million in actual revenue against a 19 million target — yet hit monthly targets in only 2 out of 14 months, exposing a persistent gap between forecast and execution
+- A peak variance of 367 thousand was recorded, with a YTD deficit sitting at -4.4%
+- Only 4 out of 12 sales representatives exceeded their targets — with individual variances ranging from -11.6% to +9.0%, showing a significant performance spread across the team
+- Sales trended upward through September 2023 before dropping sharply in Q4, flagging a structural issue that needed immediate leadership attention
+- The downward trend affected both actuals and targets simultaneously — signalling the problem was deeper than individual rep performance
 
 ---
 
@@ -56,29 +44,33 @@ This project presents a fully interactive **Sales Target Performance Dashboard**
 
 ---
 
-## 🚀 How to Use This Project
+## 🛠️ How It Was Built
 
-1. **Clone or download** this repository
-2. Open the **Power BI file** (.pbix) in Power BI Desktop
-3. The dataset is already connected — click **Refresh** to load the data
-4. Use the filters and slicers to explore performance by month and sales rep
-5. Hover over charts for tooltips and detailed breakdowns
+| Tool | Role |
+|---|---|
+| Power BI | Dashboard design and interactive visualisation |
+| Power Query | Data cleaning and preparation |
+| DAX | Custom measures, KPI calculations and variance logic |
 
 ---
 
-## 📁 Repository Structure
+## 🚀 How To Use This Dashboard
+
+1. **Clone or download** this repository
+2. Open **sales-target-dashboard.pbix** in Power BI Desktop
+3. Click **Refresh** to load the dataset
+4. Use the month and rep filters to explore performance at any level
+5. Hover over any chart for detailed breakdowns and tooltips
+
+---
+
+## 📁 Files In This Repository
 ```
 ├── sales-target-dataset.xlsx           # Source dataset
 ├── sales-target-dashboard.pbix         # Power BI dashboard file
 ├── screenshot.png                      # Dashboard preview image
 └── README.md                           # Project documentation
 ```
-
----
-
-## 🏷️ Tags
-
-`data-analysis` `business-intelligence` `dashboard` `kpi` `data-visualization` `power-bi` `power-query` `dax` `sales-analysis` `variance-analysis` `financial-analytics` `reporting`
 
 ---
 
